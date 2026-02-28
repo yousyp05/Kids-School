@@ -1,0 +1,53 @@
+/* REsponsive For Mobile */
+@media screen and (max-width:576px) {
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    /* Nav bar */
+    nav{
+       padding-top: 30px;
+      padding-left: 10px;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 1.2rem;
+        margin-left: 70px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+}
+
+/* Responsive For Tab */
+@media screen and (min-width:576px) and (max-width:992px) {
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    /* Nav bar */
+    nav{
+       padding-top: 30px;
+      padding-left: 10px;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 1.2rem;
+        margin-left: 70px;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+}
