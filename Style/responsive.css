@@ -1,15 +1,19 @@
 /* REsponsive For Mobile */
 @media screen and (max-width:576px) {
-*{
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-}
-    /* Nav bar */
-    nav{
-       padding-top: 30px;
-      padding-left: 10px;
+    * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
     }
+
+    /* Nav bar */
+    nav {
+        padding-top: 30px;
+        padding-left: 10px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #FEA301;
+    }
+
     .fa-bars {
         display: block;
         font-size: 1.2rem;
@@ -22,25 +26,68 @@
 
     .nav-btn {
         display: none;
+    }
+
+    /* Herom container */
+    .hero-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+
+    .hero-content img {
+        max-width: 100%;
+        padding: 20px 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 18px;
+        padding: 4px;
+    }
+
+    .hero-content p {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 18px;
+        padding: 4px;
+    }
+
+    .hero-btn {
+        font-size: 1rem;
+        padding: 10px 30px;
+        display: block;
+        margin: 0 auto;
     }
 }
 
 /* Responsive For Tab */
 @media screen and (min-width:576px) and (max-width:992px) {
-*{
-    margin: 0;
-    padding: 0px;
-    box-sizing: border-box;
-}
-    /* Nav bar */
-    nav{
-       padding-top: 30px;
-      padding-left: 10px;
+    * {
+        margin: 0;
+        padding: 0px;
+        box-sizing: border-box;
     }
+
+    html {
+        font-size: 14px;
+    }
+
+    /* Nav bar */
+    nav {
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
     .fa-bars {
         display: block;
         font-size: 1.2rem;
-        margin-left: 70px;
+        margin-left: 500px;
     }
 
     .nav-item {
@@ -49,5 +96,42 @@
 
     .nav-btn {
         display: none;
+    }
+
+    /* Herom container */
+    .hero-content {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+
+    .hero-content img {
+        max-width: 100%;
+        padding: 20px 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 18px;
+        padding: 4px;
+    }
+
+    .hero-content p {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: normal;
+        text-align: center;
+        margin-bottom: 18px;
+        padding: 4px;
+    }
+
+    .hero-btn {
+        font-size: 1rem;
+        padding: 15px 60px;
+        display: block;
+        margin: 0 auto;
     }
 }

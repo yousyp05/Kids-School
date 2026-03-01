@@ -63,10 +63,35 @@ color: #05D4DF;
     display: none;
 }
 .nav-btn{
+    font-size: 1.125rem;
+    font-weight: 600;
     color: white;
     background-color: #FEA301;
     border-radius: 12px;
-    padding: 10px 60px;
+    padding: 15px 60px;
     border: none;
     cursor: pointer;
+}
+
+/* Hero */
+
+.hero-content h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 61px;
+    max-width: 640px;
+}
+.hero-content p{
+    max-width: 640px;
+    padding: 24px auto ;
+    color: #111111;
+}
+.empowering{
+    color: #FEA301;
+}
+.towards-vision{
+    color: #01ACFD;
+}
+.hero-btn{
+    background-color: #111111;
 }
