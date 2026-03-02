@@ -5,6 +5,9 @@
         padding: 0px;
         box-sizing: border-box;
     }
+    html{
+        font-size: ;
+    }
 
     /* Nav bar */
     nav {
@@ -17,7 +20,6 @@
     .fa-bars {
         display: block;
         font-size: 1.2rem;
-        margin-left: 70px;
     }
 
     .nav-item {
@@ -29,6 +31,7 @@
     }
 
     /* Herom container */
+
     .hero-content {
         display: flex;
         flex-direction: column-reverse;
@@ -50,7 +53,7 @@
     }
 
     .hero-content p {
-        font-size: 1.125rem;
+        font-size: 0.875rem;
         font-weight: 500;
         line-height: normal;
         text-align: center;
@@ -63,6 +66,36 @@
         padding: 10px 30px;
         display: block;
         margin: 0 auto;
+    }
+
+    /* Standard Curriculum */
+    .curriculum-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+
+    .Curriculum h2 {
+        font-size: 1.625rem;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .curriculum-box h3 {
+        font-size: 1.015625rem;
+        font-weight: 700;
+        margin: 15px auto;
+    }
+
+    .curriculum-box p {
+        font-size: 0.63875rem;
+        margin: 10px 50px;
+        line-height: 19.4px;
+    }
+
+    .curriculum-box a {
+        font-size: 0.63875rem;
     }
 }
 
@@ -87,7 +120,6 @@
     .fa-bars {
         display: block;
         font-size: 1.2rem;
-        margin-left: 500px;
     }
 
     .nav-item {
@@ -134,4 +166,14 @@
         display: block;
         margin: 0 auto;
     }
+
+    /* Standard Curriculum */
+    .curriculum-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+        margin:auto 100px ;
+    }
+
+    
 }
