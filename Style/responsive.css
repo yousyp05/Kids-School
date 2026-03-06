@@ -6,7 +6,7 @@
         box-sizing: border-box;
     }
     html{
-        font-size: ;
+        font-size: 14px;
     }
 
     /* Nav bar */
@@ -89,14 +89,68 @@
     }
 
     .curriculum-box p {
-        font-size: 0.63875rem;
-        margin: 10px 50px;
-        line-height: 19.4px;
-    }
+    font-size: 0.68875rem;
+    margin:10px 30px;
+    line-height: 19.22px;
+}
 
     .curriculum-box a {
         font-size: 0.63875rem;
     }
+    .angle-icon{
+        display: none;
+    }
+
+    /* Our Stories */
+    .story-0{
+        display: none;
+    }
+    .story-card-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: px;
+}
+.story-card-box img{
+    max-width:100%;
+}
+.story-card h4 {
+    max-width: 10%;
+    font-weight: 500;
+    font-size: 0.570625rem;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+.story-btn {
+    font-size: 0.570625rem;
+    padding: 5px 10px;
+    border-radius: 28.50px;
+    position: relative;
+    bottom: 16px;
+    left: 25px;
+}
+
+.story-bottom-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.story-card h4 {
+    max-width: 80%;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.nan{
+    display: block;
+}
 }
 
 /* Responsive For Tab */
@@ -175,5 +229,58 @@
         margin:auto 100px ;
     }
 
-    
+    /* Our Stories */
+    .story-0{
+        display: none;
+    }
+    .story-card-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: px;
+}
+.story-card-box img{
+    max-width:100%;
+}
+.story-card h4 {
+    max-width: 10%;
+    font-weight: 500;
+    font-size: 0.570625rem;
+    margin: 0 auto;
+    margin-top: 500px;
+}
+.story-btn {
+    font-size: 0.95875rem;
+    color: white;
+    background-color: #3CD8E8;
+    padding: 14px 18px;
+    border-radius: 47.93px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 25px;
+    left: 70px;
+}
+
+.story-bottom-btn {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.story-card h4 {
+    max-width: 50%;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.nan{
+    display: block;
+}
 }

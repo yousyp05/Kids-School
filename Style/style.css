@@ -156,3 +156,111 @@ nav ul li a {
 .curriculum-box a {
     text-decoration: none;
 }
+
+.angle-icon {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+}
+
+.fa-angle-left {
+    padding-top: 20px;
+    background-color: #FEA301;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.fa-angle-right {
+    padding-top: 20px;
+    background-color: #FEA301;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+/* Our StoriesOur */
+.story-container {
+    background: linear-gradient(white, #fae1b5);
+}
+
+.stories-h2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.story-card-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.story-container img {
+    border-radius:20px 20px 0 0;
+}
+
+.story-card-box img {
+    max-height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.story-0 {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.story-p {
+    max-width: 100%;
+}
+
+.story-0 h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 38px;
+    margin-bottom: 48px;
+}
+
+.story-0 p {
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 68px;
+    padding-left: 38px;
+    line-height: 38px;
+
+}
+
+.story-btn {
+    font-size: 0.95875rem;
+    color: white;
+    background-color: #3CD8E8;
+    padding: 14px 18px;
+    border-radius: 47.93px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 35px;
+    left: 38px;
+}
+
+.story-bottom-btn {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.story-card {
+    background-color: white;
+    border-radius: 16px;
+}
+
+.story-card h4 {
+    max-width: 80%;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.nan{
+    display: none;
+}
