@@ -151,6 +151,53 @@
 .nan{
     display: block;
 }
+/* Footer */
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo{
+    font-size: 2.233125rem;
+}
+/* First */
+.footer-logo{
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.footer-text{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+/* Mid div */
+.meed-div{
+    position: relative;
+    right: 90px;
+}
+.meed-div h3{
+    font-size: 1.271875rem;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+.meed-div li{
+    font-size: 1.095rem;
+    font-weight: 500;
+    line-height: 30px;
+    margin-left: 0;
+}
+/* Last div */
+.last{
+   position: relative; 
+   right: 160px;
+   margin-top: 30px;
+}
+.last h3{
+    font-size: 1.2575rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.icon{
+    font-size: 20px;
+}
 }
 
 /* Responsive For Tab */

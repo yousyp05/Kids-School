@@ -264,3 +264,52 @@ nav ul li a {
 .nan{
     display: none;
 }
+
+/* Footer */
+.footer{
+    background-color: #01ACFD;
+    
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* First */
+.footer-logo{
+    justify-content: flex-start;
+}
+.footer-logo h2{
+    font-size: 2.625rem;
+    font-weight: 700;
+    color: white;
+}
+.footer-text{
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+/* Mid div */
+.meed-div h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-left: 155px;
+}
+.meed-div li{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: 150px;
+}
+/* Last div */
+.last{
+    margin-left: 150px;
+
+}
+.last h3{
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
